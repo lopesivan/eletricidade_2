@@ -1,0 +1,32 @@
+#+title:  Eletricidade 2
+#+author: Ivan Lopes
+#+date:   2022-05-19
+
+*  Fórmulas
+
+** P =                  R =
+   (V,R) -> V^2/R       (V,P) -> V^2/P
+   (R,I) -> R*I^2       (P,I) -> P*I^2
+   (V,I) -> V*I         (V,I) -> V/I
+
+** V =                  I =
+   (R,I) -> R*I         (P,V) -> P/V
+   (I,R) -> P/I         (V,R) -> V/R
+   (P,R) -> sqrt(P*R)   (P,R) -> sqrt(P/R)
+
+** P =
+(V,R) -> V^2/R
+(R,I) -> R*I^2
+(V,I) -> V*I
+** V =
+(R,I) -> R*I
+(R,I) -> P/I
+(P,R) -> sqrt(P*R)
+** I =
+(P,R) -> sqrt(P/R)
+(V,R) -> V/R
+(P,V) -> P/V
+** R =
+(V,I) -> V/I
+(V,P) -> V^2/P
+(P,I) -> P*I^2
