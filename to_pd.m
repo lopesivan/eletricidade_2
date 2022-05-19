@@ -11,16 +11,16 @@ function [m, d] = to_pd(c, N)
 % magnitude is returned if N == 1 and the phase is returned if N == 2.
 %
 % See also: to_rd, to_p, to_r
- if (nargout == 2)
- m = abs(c);
- d = r2d(angle(c));
- else
- if (nargin == 2 && N == 1)
- m = abs(c);
- elseif (nargin == 2 && N == 2)
- m = r2d(angle(c))
- else
- m = [abs(c) r2d(angle(c))];
- end
- end
+	if (nargout == 2)
+		m = abs(c);
+		d = r2d(angle(c));
+	else
+		if (nargin == 2 && N == 1)
+			m = abs(c);
+		elseif (nargin == 2 && N == 2)
+			m = r2d(angle(c))
+		else
+			m = [abs(c) r2d(angle(c))];
+		end
+	end
 end
